@@ -1,6 +1,6 @@
 Name: nfcd-binder-plugin
 
-Version: 1.2.1
+Version: 1.2.2
 Release: 0
 Summary: Binder-based NCI I/O plugin for nfcd
 License: BSD
