@@ -1,4 +1,5 @@
 /*
+ * Copyright (C) 2026 Jolla Mobile Ltd
  * Copyright (C) 2018-2025 Slava Monich <slava@monich.com>
  * Copyright (C) 2018-2020 Jolla Ltd.
  *
@@ -47,7 +48,7 @@
 #include <nfc_manager.h>
 #include <nfc_plugin_impl.h>
 
-#include <nci_types.h>
+#include <nci_plugin_types.h>
 
 #include <gbinder.h>
 
@@ -328,6 +329,7 @@ static GLogModule* const binder_nfc_plugin_logs[] = {
     &binder_hexdump_log,
     &GBINDER_LOG_MODULE,
     &NCI_LOG_MODULE,
+    &NCI_PLUGIN_LOG_MODULE,
     NULL
 };
 
